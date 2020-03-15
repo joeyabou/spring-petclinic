@@ -33,10 +33,5 @@ class PetclinicIntegrationTests {
 		vets.findAll(); // served from cache
 	}
 
-	@Test
-	void testShouldFail(){
-		assertThat("").isEqualTo("five");
-	}
-
 
 }
